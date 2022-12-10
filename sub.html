@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/Style.css" />
+    <link rel="stylesheet" href="CSS/form.css">
+    <script src="JS/jquery-latest.min.js"></script>
+    <script src="JS/system.js"></script>
+    <title>Document</title>
+    <script></script>
+  </head>
+  <body>
+    <div class="top">
+      <div class="pic1"><img src="Pic/logo.png" alt="logo" class="logo" /></div>
+      <div class="drop" id="myTop">
+        <a href="Home.html">Home</a>
+        <a href="author.html">Top Author</a>
+        <a href="mebToon.html">Top MebToon</a>
+        <a href="sub.html">Subscription</a>
+        <div class="dropdown">
+          <button class="dropbtn">Categories</button>
+          <div class="dropcontent">
+            <a href="manga.html">Manga</a>
+            <a href="manhwa.html">Manhwa</a>
+            <a href="manhua.html">Manhua</a>
+          </div>
+        </div>
+      </div>
+    </div>
+          <h1 class="sub">Subscription</h1>
+          <div class="form">            
+            <form id="form1">
+              <div class="input">
+                <label for="name" class="put">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Name">
+              </div>
+              <div class="input">
+                <label for="email" class="put">Email:</label>
+                <input type="text" name="email" id="email" placeholder="@gmail.com">
+              </div>
+              <div class="input">
+                <label for="phone" class="put">Phone Number:</label>
+                <input type="number" name="phone" id="phone" placeholder="0812">
+              </div>
+              <div class="input">
+                <label for="country" class="put">Country:</label>
+                <select name="country" id="country">
+                  <option value="0">Choose</option>
+                  <option value="1">Indonesia</option>
+                  <option value="2">Singapore</option>
+                  <option value="3">Japan</option>
+                  <option value="4">Australia</option>
+                  <option value="5">New Zealand</option>
+                </select>
+              </div>
+              <div class="input">
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree" class="term">I agree to terms and conditions of services</label>
+              </div>
+              <input type="submit" value="Submit" class="submit" onclick="validateForm()">
+            </form>
+          </div>
+    <div class="bottom">
+      <div class="medsoshome">
+        <div class="fb">
+          <a href="http://facebook.com">
+            <img src="Pic/fb.png" alt="" class="logo-pichome"
+          /></a>
+        </div>
+        <div class="twi">
+          <a href="http://twitter.com">
+            <img src="Pic/twitter.png" alt="" class="logo-pichome"
+          /></a>
+        </div>
+        <div class="ig">
+          <a href="http://ig.com">
+            <img src="Pic/ig.png" alt="" class="logo-pichome"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <script src="JS/sub.js" defer></script>
+  </body>
+</html>

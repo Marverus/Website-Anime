@@ -1,0 +1,45 @@
+.middle2{
+    width: 980px;
+    margin: 40px auto;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+#middle1{
+    width: 980px;
+    margin: 40px auto;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  #middle3{
+    width: 980px;
+    margin: 40px auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 140px;
+  }
+
+.gam{
+    padding-right: 40px;
+    width: 380px;
+    height: 200px;
+    float: left;
+}
+.isi-teks1{
+    display: block;
+    padding-right: 40px;
+    padding-top: -10px;
+    color: white;
+}
+
+.gam2{
+    padding-right: 40px;
+    width: 380px;
+    height: 200px;
+    float: left;    
+  }
+.isi-teks2{
+    display: block;
+    padding-right: 40px;
+    padding-top: -1px;
+    color: white;
+  }
